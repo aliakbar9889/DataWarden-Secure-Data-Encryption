@@ -9,6 +9,7 @@ from hashlib import pbkdf2_hmac
 # Constants
 DATA_FILE = 'data.json'
 SALT = b'secure_salt_Value'
+KEY_FILE = "fernet.key"
 
 # Streamlit config
 st.set_page_config(page_title="DataWarden", page_icon="🔐", layout="centered")
